@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 
 # Configuration de la connexion à la base de données
-db_connection_str = "dbname=rag_chatbot user=postgres password=ibrahiminfo host=localhost port=5432"
+db_connection_str = "dbname=rag_chatbot user=postgres password=votremotdepasse host=localhost port=5432"
 
 # Clé API Gemini
 GEMINI_API_KEY = "AIzaSyBA46qJcksx81VvKVdaV_ZBQqQNyNs6w80"
