@@ -13,7 +13,7 @@ conversation_file_path = os.path.join(data_dir, "017_00000012.txt")
 # Initialiser le client Gemini
 genai.configure(api_key="AIzaSyBA46qJcksx81VvKVdaV_ZBQqQNyNs6w80")
 
-db_connection_str = "dbname=rag_chatbot user=postgres password=ibrahiminfo host=localhost port=5432"
+db_connection_str = "dbname=rag_chatbot user=postgres password=votremotdepasse host=localhost port=5432"
 
 def create_conversation_list(file_path: str) -> list[str]:
     """Lit le fichier avec le bon encodage et filtre les lignes"""
